@@ -18,9 +18,6 @@ _This webpage has drop down menus for the user to select what movie they would l
   * Input: "Late Afternoon"
   * Output:  Movie base price + 2.50
 
-* **A time of day is selected and the movie price is adjusted**
-  * Input: "Late Afternoon"
-  * Output:  Movie base price + 2.50
 
 * **An age is input, if the number falls within a certain range, price is adjusted**
   * Input: 66
