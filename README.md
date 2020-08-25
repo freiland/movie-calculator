@@ -2,11 +2,11 @@
 
 #### _JavaScript constructor and OOP exercise for Epicodus_
 
-#### By _Forrest Reiland
+#### By _Forrest Reiland_
 
 ## _Description_
 
-_This webpage has drop down menus for the user to select what movie they would like to see and what time of day they would like to see it. It also asks them to input their age. The user input data is stored in a Ticket object. The ticket price is then calcualted accounting for senior discounts, old release discounts and time of day discounts._
+_This webpage has drop down menus for the user to select what movie they would like to see and the time of day when they would like to see it. Additionally it asks them to input their age. The user input data is stored in a Ticket object. The ticket price is then calcualted accounting for senior discounts, old release discounts and time of day discounts._
 
 ## Specifications
 
