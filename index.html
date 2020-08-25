@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  
+    <title>Movie Ticket Calculator</title>
+  
+</head>
+<body class="container">
+  <div class="jumbotron">
+    <h1>EpiTheatres Ticket Pricing</h1>
+  </div>
+  <h2>Fill out the form to calculate your ticket price:</h2>
+  <form id="question" class="card">
+
+    <label for="age" class="card-body">Please enter your age:</label>
+    <input id="age" type="text">
+    
+    <label for="movie">Select the movie that you would like to see:</label>
+      <select class="form-control" id="compSize">
+        <option value="0"><strong>Indiana Jones and the Raiders of the Lost Ark</strong></option>
+        <option value="1"><strong>Once Upon a Time In Hollywood</strong></option>
+        <option value="2"><strong>The Terminator</strong></option>
+        <option value="3"><strong>Ad Astra</strong></option>
+        <option value="4"><strong>1917</strong></option>
+        
+      </select>
+
+      <label for="time">Select the time of day that you would like to see the movie:</label>
+      <select class="form-control" id="time">
+        <option value="0">Morning</option>
+        <option value="1">Early afternoon</option>
+        <option value="2">Late afternoon</option>
+        <option value="3">Evening</option>
+        <option value="4">Late night</option>
+        
+      </select>
+
+    
+
+    <button type="submit" class="btn btn-primary"><em>Submit!</em></button>
+  </form>
+  <div class="answer">
+    
+    </div>
+  </div>
+</body>
